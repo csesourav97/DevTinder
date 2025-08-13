@@ -1,0 +1,9 @@
+- Create a repo
+- Initialize the repo
+- node_modules, package-lock.json, package.json
+- Install express
+- Create a server
+- Listen to port 5555
+- Write request handler for /test , /hello
+- Install nodemon and update scripts inside package.json
+- 
