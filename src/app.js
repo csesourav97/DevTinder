@@ -29,8 +29,8 @@ app.use("/", userRouter);
 
 connectDB().then(() => {
     console.log("Database connected successfully. ");
-    app.listen(port,'0.0.0.0', () => {
-        console.log(`Server is running on http://0.0.0.0:${port}`);
+    app.listen(port, () => {
+        console.log(`Server is running on http://localhost:${port}`);
     });
      
 }).catch((err) =>{
